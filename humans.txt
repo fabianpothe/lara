@@ -1,9 +1,11 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+# Lara
+# a simple WordPress Theme
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+ Project Lead/Developer: Fabian Pothe
+ Contact: hello [at] fabianpothe.com
+ WWW: fabianpothe.com
 
 # THANKS
 

@@ -2,7 +2,7 @@
 
 Version: 0.0.1
 
-### Features
+## Features
 
 ## About
 
@@ -11,11 +11,11 @@ Version: 0.0.1
 ## Author:
 Fabian Pothe
 
-### Contributors:
+## Contributors:
 - [fabianpothe] (https://github.com/fabianpothe)
 - Everyone is welcome to contribute!
 
-# THANKS
+## THANKS
 - bootstrap
 - html5-boilerplate
 - wp_bootstrap_navwalker
