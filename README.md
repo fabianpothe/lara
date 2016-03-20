@@ -1,10 +1,12 @@
 # Lara a simple WordPress Theme
 
-Version: 0.0.1
+Lara is a simple WordPress Starter Theme, wich you can use to build your own theme/site.
+
+- Version: 0.0.2
 
 ## Features
-
-## About
+- Bootstrap
+- SCSS
 
 ## Usage
 
@@ -21,3 +23,6 @@ Fabian Pothe
 - wp_bootstrap_navwalker
 - WP Bootstrap Comment Walker
 - http://leafo.net/scssphp
+
+##Todo
+- https://github.com/fabianpothe/lara/issues
