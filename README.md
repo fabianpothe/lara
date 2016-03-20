@@ -9,9 +9,10 @@ Lara is a simple WordPress Starter Theme, wich you can use to build your own the
 - SCSS
 
 ## Usage
+-
 
 ## Author:
-Fabian Pothe
+[Fabian Pothe] (http://fabianpothe.com)
 
 ## Contributors:
 - [fabianpothe] (https://github.com/fabianpothe)
