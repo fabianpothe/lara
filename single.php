@@ -5,8 +5,8 @@
       SINGLE
       <?php get_template_part('loop'); ?>
 
-       <?php comment_form(); ?>
-       
+       <?php comments_template(); ?> 
+
     </div><!-- /.col-md-8 -->
     <div class="col-md-4">
   				<?php dynamic_sidebar( 'sidebar-a' ); ?>

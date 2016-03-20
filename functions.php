@@ -87,3 +87,19 @@ function theme_equinox_widgets_init() {
     echo '<span>'.$thumbnail_image[0]->post_excerpt.'</span>';
   }
 }
+
+function custom_theme_setup() {
+    add_theme_support( 'html5', array( 'comment-list' ) );
+}
+add_action( 'after_setup_theme', 'custom_theme_setup' );
+
+add_filter( 'comment_form_defaults', 'bootstrap3_comment_form' );
+function bootstrap3_comment_form( $args ) {
+    $args['comment_field'] = '<div class="form-group comment-form-comment">
+            <label for="comment">' . _x( 'Comment', 'noun' ) . '</label>
+            <textarea class="form-control" id="comment" name="comment" cols="45" rows="4" aria-required="true"></textarea>
+        </div>';
+    $args['class_submit'] = 'btn btn-default pull-right'; // since WP 4.1
+
+    return $args;
+}
